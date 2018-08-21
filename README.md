@@ -1,5 +1,7 @@
 # practice-Portfolio-site
 
+http://joe-simon.com/practice-Portfolio-site-/
+
 This is my first attempt at a portfolia site.
 
 I decide to build this without the use of framworks, such as bootstrap or materialze or even font aswome. Wanted to show my basic HTML and CSS skills.
