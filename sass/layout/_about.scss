@@ -1,0 +1,38 @@
+.about {
+    background-color: var(--color-primary);    
+    margin: auto; 
+    margin-top: 20rem;         
+    box-shadow: var(--shadow-dark);        
+    border-radius: var(--border-radius);
+    transition: all .5s;   
+    width: 90%;
+    cursor: default;
+
+    @media only screen and (max-width: $bp-small) {
+        margin-top: 10rem;
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem)
+    }
+
+    &__me {
+
+        &__para {
+            text-align: left;
+            font-size: 1.7rem;
+            letter-spacing: .4px;
+            padding: 0 2rem;
+        }
+    }
+}
+
+.para-1 {
+    padding-bottom: 2rem;
+}
+
+.indent {
+    text-indent: 3rem;
+}
+
+

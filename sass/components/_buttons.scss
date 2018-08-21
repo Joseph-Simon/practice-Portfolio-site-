@@ -1,0 +1,58 @@
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;  
+  padding: 1.5rem 3.5rem;
+  margin: 1rem 10px;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  background-color: var(--color-primary);
+  color: var(--color-primary-dark);
+  font-size: 1.6rem;
+}
+
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-dark);
+  background-color: var(--color-primary-light); 
+  color: var(--color-accent);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-dark);
+}
+
+.link {
+  font-size: 2.5rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  text-transform: uppercase;
+  
+
+   &:hover {
+    background-color: var(--color-primary-dark);
+    color: var(--color-primary);
+  }
+}
+
+.link--1 {
+  font-size: 1.6rem;
+  color: var(--color-accent);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 1s;
+  position: relative;
+
+  &:hover {
+    background-color: var(--color-primary-dark);
+    border-radius: 10%;
+    transform: translatex(1rem);
+    position: absolute;
+    color: var(--color-primary);
+  }
+}
+

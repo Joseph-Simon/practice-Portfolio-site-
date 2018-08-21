@@ -1,0 +1,26 @@
+//CSS variables
+
+:root {
+    --color-primary: #F5F5F5;
+    --color-primary-light: #f9f9f9;
+    --color-primary-dark-2: #607D8B;
+    --color-primary-dark: #455A64;
+
+    --color-primary-text: #212121;
+    --color-secondary-text: #757575;
+
+    --color-accent: #FF5722;
+   
+    --color-border: #BDBDBD;    
+
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.4);
+
+    --border-radius: 5px;
+}
+
+// SASS variables
+$bp-largest: 75rem;    // 1200px /16
+$bp-large: 68.75em;  //1100px /16
+$bp-medium: 56.25em;  //900px  /16
+$bp-small: 37.5em;  //600px  /16
+$bp-smallest: 31.5em;  //500px  /16

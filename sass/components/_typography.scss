@@ -1,0 +1,42 @@
+.heading-primary {    
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+
+    &-main {
+        display: block;
+        font-size: 6rem;   
+        letter-spacing: 2.5rem;
+        animation: moveInLeft 1.5s ease-out;
+        
+      }
+
+      &-sub {
+        display: block;
+        font-size: 2rem;    
+        letter-spacing: 1.7rem;
+        animation: moveInRight 1.5s ease-out;
+      }
+
+  }
+
+ 
+p {
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--color-primary-text);
+    
+}
+
+h2 {
+    font-size: 3.2rem;
+    text-align: center;
+    text-transform: uppercase;   
+    display: block;
+    background-image:linear-gradient(rgb(43, 42, 42) 25%,  rgba(218, 89, 50, 0.925) );;
+    -webkit-background-clip: text;
+    color: transparent;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 2rem;    
+}
+    
